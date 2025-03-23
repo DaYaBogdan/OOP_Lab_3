@@ -96,7 +96,7 @@ int Menu::execute()
 		if(!cursor)
 		{
 			system("cls");
-			beg = iter->callFunction(beg);
+			objects = iter->callFunction(objects);
 			break;
 		}
 		--cursor;
@@ -109,9 +109,9 @@ Menu::Menu()
 	cursor = 0;
 }
 
-Menu::Menu(std::deque <Student> _beg)
+Menu::Menu(Data _objects)
 {
-	beg = _beg;
+	objects = _objects;
 	cursor = 0;
 }
 

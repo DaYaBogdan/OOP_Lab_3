@@ -2,6 +2,8 @@
 #define LABEL
 #include "Object.h"
 
+#include <iostream>
+
 class Label :
     protected Object
 {

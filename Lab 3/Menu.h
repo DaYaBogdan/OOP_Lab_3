@@ -1,13 +1,13 @@
 #ifndef MENU
 #define MENU
 #include "Button.h"
-
+#include "Data.h"
 #include <conio.h>
 
 class Menu
 {
 public:
-	Menu(std::deque <Student> _beg);
+	Menu(Data _objects);
 	Menu();
 	~Menu();
 
@@ -28,7 +28,7 @@ private:
 
 	int cursor;
 
-	std::deque <Student> beg;
+	Data objects;
 	std::deque <Label> labels;
 	std::deque <Button> buttons;
 };

@@ -2,10 +2,6 @@
 #define STUDENT
 
 #include <iostream>
-#include <deque>
-#include <fstream>
-#include <conio.h>
-#include <algorithm>
 
 struct marks
 {
@@ -33,13 +29,5 @@ private:
 	int ID;
 	marks mark;
 };
-
-std::deque <Student> printAll(std::deque <Student> beg);
-std::deque <Student> addAnother(std::deque <Student> beg);
-std::deque <Student> sorting(std::deque <Student> beg);
-std::deque <Student> save(std::deque <Student> beg);
-std::deque <Student> load(std::deque <Student> beg);
-std::deque <Student> search(std::deque <Student> beg);
-
 
 #endif // !STUDENT

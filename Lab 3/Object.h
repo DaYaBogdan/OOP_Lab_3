@@ -1,6 +1,5 @@
 #ifndef OBJECT
 #define OBJECT
-#include <iostream>
 #include <windows.h>
 
 class Object
